@@ -32,31 +32,23 @@ Para cada animación y dirección, genera imágenes individuales en formato **PN
 Antes de ejecutar el script, debes modificar los siguientes valores:
 
 - frames maximos:
-    FRAME_COUNT = 8
+    ### FRAME_COUNT = 8
 
 - nombre de carpeta a crear:
-    OUTPUT_FOLDER_NAME = "Y BOT Animations"
+    ### OUTPUT_FOLDER_NAME = "Y BOT Animations"
 
 - resolucion de cada frame img:
-    s.render.resolution_x = 1024
-    s.render.resolution_y = 1024
+    ### s.render.resolution_x = 1024
+    ### s.render.resolution_y = 1024
 
 - ruta destino de carpeta:
-    render8directions_selected_objects(r"C:\Users\MIPC\Desktop\blender\blender assets")
+    ### render8directions_selected_objects(r"C:\Users\MIPC\Desktop\blender\blender assets")
 
 
 - si por alguna razon hay algun problema con las direcciones, podemos modificar los valores en:
 
-    directions = [
-        (180, "Back"),
-        (135, "Back Right"),
-        (90,  "Right"),
-        (45,  "Front Right"),
-        (0,   "Front"),
-        (315, "Front Left"),
-        (270, "Left"),
-        (225, "Back Left"),
-    ]
+    ### directions = [(180, "Back"),(135, "Back Right"),(90,  "Right"),(45,  "Front Right"),(0,   "Front"),(315, "Front Left"),(270, "Left"),(225, "Back Left"),]
+
 
 
 ## ProBlenderTip: 
